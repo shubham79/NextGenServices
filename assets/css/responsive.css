@@ -1,0 +1,241 @@
+/*========================================================================================
+                                 Start Responsive Style
+========================================================================================*/
+
+/*==================Large Display==============*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .container{
+        width: 970px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .service_content > p {
+        padding-right: 0;
+    }
+    .portfolio_item_content {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/*==================Medium Display==============*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .author_link a.btn_3 {
+        margin-right: 0;
+    }
+    .author_info .personal_info li b {
+        width: 72px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .service_content > p {
+        padding-right: 0;
+    }
+     .portfolio_item_content {
+        width: 40px;
+        height: 40px;
+    }
+    .contact_info li {
+        margin-right: 0;
+    }
+}
+
+/*============ Tab Display==============*/
+@media only screen and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+    .navbar-toggle {
+        margin-top: -44px;
+        margin-right: 0;
+        cursor: pointer;
+    }
+    .navbar{
+        min-height: 0;
+    }
+    .nav.navbar-nav.navbar-right > li {
+        background: #222;
+        border-bottom: 1px solid #444;
+    }
+    .nav.navbar-nav.navbar-right > li:last-child{
+        border-bottom: 1px solid transparent;
+    }
+    .main_menu .navbar-nav > li > a {
+        line-height: 40px;
+        color: #fff;
+    }
+    .sticky .main_menu .navbar-nav > li > a {
+        color: #fff;
+        line-height: 30px;
+    }
+    .navbar-collapse {
+        box-shadow: none;
+    }
+}
+
+/*=============Medium Mobile Screen==============*/
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    h1{
+        font-size: 48px;
+    }
+    .navbar-toggle {
+        cursor: pointer;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .logo img {
+        padding-bottom: 12px;
+    }
+    header.sticky .logo {
+        padding-top: 10px;
+    }
+    .ptb_1 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .section_top_title h2 {
+        font-size: 30px;
+    }
+    .author_info {
+        margin-top: 30px;
+    }
+    .author_info .personal_info li b {
+        width: 78px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .resume_title {
+        text-align: center;
+    }
+    .education .single_item_resume {
+      text-align: center;
+      padding-right: 0;
+      border-right: transparent;
+    }
+    .job.text_right {
+        text-align: center;
+    }
+    .job .single_item_resume {
+      text-align: center;
+      padding-left: 0;
+      border-left: transparent;
+    }
+    .single_item_resume > p{
+        padding: 0 15px;
+    }
+    .single_service_item {
+        text-align: center;
+    }
+    .portfolio_menu button {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-right: 0;
+    }
+    .copy_right {
+        text-align: center;
+    }
+    .ftr_social_link {
+        text-align: center;
+    }
+}
+
+/*============Small Mobile Display==============*/
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+    .container {
+        width: 300px;
+    }
+    .navbar-toggle {
+        cursor: pointer;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .logo img {
+        padding-bottom: 12px;
+    }
+    header.sticky .logo {
+        padding-top: 10px;
+    }
+    .section_top_title h2 {
+        font-size: 25px;
+    }
+    .author_link a.btn_3 {
+        margin-bottom: 10px;
+    }
+    .author_info > h4{
+        font-size: 16px;
+    }
+    .author_info .personal_info li b {
+        width: 125px;
+    }
+
+    .resume_title {
+        text-align: center;
+    }
+    .education .single_item_resume {
+      text-align: center;
+      padding-right: 0;
+      border-right: transparent;
+    }
+    .job.text_right {
+        text-align: center;
+    }
+    .job .single_item_resume {
+        text-align: center;
+        padding-left: 0;
+        border-left: transparent;
+    }
+    .single_item_resume > p{
+        padding: 0 15px;
+    }
+    .single_service_item {
+        text-align: center;
+    }
+    .service_content > p{
+        padding-right: 0;
+    }
+    .institute {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .portfolio_item_content {
+        width: 40px;
+        height: 40px;
+    }
+    .portfolio_menu button {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
+    .portfolio_single_item:hover .project_title {
+        top: 33%;
+    }
+    .portfolio_single_item:hover .portfolio_item_content {
+        bottom: 20%;
+    }
+    .info_text{
+        padding-left: 15px;
+    }
+    .copy_right {
+        text-align: center;
+    }
+    .ftr_social_link {
+        text-align: center;
+    }
+}
